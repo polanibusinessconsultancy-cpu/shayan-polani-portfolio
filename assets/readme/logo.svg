@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141822"/>
+      <stop offset="50%" stop-color="#0E121A"/>
+      <stop offset="100%" stop-color="#080A0F"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4D7CFE" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#272C36"/>
+      <stop offset="100%" stop-color="#4D7CFE" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Electric Blue Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B95FF"/>
+      <stop offset="100%" stop-color="#4D7CFE"/>
+    </linearGradient>
+
+    <!-- Subtle Inner Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <radialGradient id="radialGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4D7CFE" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4D7CFE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="120" cy="120" r="100" fill="url(#radialGlow)"/>
+
+  <!-- Base Squircle -->
+  <rect x="20" y="20" width="200" height="200" rx="48" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5"/>
+
+  <!-- Inner Architectural Grid Line Accents -->
+  <rect x="36" y="36" width="168" height="168" rx="36" fill="none" stroke="#272C36" stroke-width="1" stroke-dasharray="6 6" opacity="0.6"/>
+
+  <!-- Monogram Glyph 'SP' -->
+  <!-- S Path -->
+  <path d="M 88 88 C 88 76, 102 70, 114 70 C 126 70, 138 76, 138 88 C 138 98, 126 104, 114 108 C 100 113, 86 119, 86 134 C 86 150, 100 158, 116 158 C 132 158, 142 148, 142 136" 
+        fill="none" stroke="#F5F4F0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- P Path (Overlapping Accent) -->
+  <path d="M 124 94 L 124 168 M 124 94 C 124 94, 136 82, 154 82 C 170 82, 178 94, 178 108 C 178 122, 168 132, 152 132 L 124 132" 
+        fill="none" stroke="url(#accentGrad)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Live Pulse Status Indicator -->
+  <circle cx="186" cy="54" r="6" fill="#4D7CFE" filter="url(#glow)"/>
+  <circle cx="186" cy="54" r="4" fill="#6B95FF"/>
+
+  <!-- Subtitle Tagline in Monospace -->
+  <text x="120" y="200" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="10" font-weight="700" fill="#9BA3B3" letter-spacing="3">SHAYAN POLANI</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141822"/>
+      <stop offset="100%" stop-color="#0B0E14"/>
+    </linearGradient>
+    <linearGradient id="accentBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4D7CFE" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#272C36"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="220" rx="14" fill="#080A0F" stroke="#272C36" stroke-width="1.5"/>
+
+  <!-- 4 Architecture Columns -->
+  <!-- Col 1: Modern Frontend -->
+  <g transform="translate(30, 25)">
+    <rect width="260" height="170" rx="10" fill="url(#cardBg)" stroke="#272C36" stroke-width="1"/>
+    <rect x="0" y="0" width="260" height="3" rx="1.5" fill="#4D7CFE"/>
+    <text x="20" y="32" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#4D7CFE">01 / FRONTEND LAYER</text>
+    <text x="20" y="58" font-family="'Space Grotesk', system-ui, sans-serif" font-size="16" font-weight="700" fill="#F5F4F0">Next.js 14 App Router</text>
+    <text x="20" y="82" font-family="'Inter', sans-serif" font-size="12" fill="#9BA3B3">React 18 Server &amp; Client Components with static prerendering.</text>
+    <text x="20" y="145" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6B95FF">⚡ React 18 · TypeScript 5</text>
+  </g>
+
+  <!-- Col 2: Design & Motion -->
+  <g transform="translate(315, 25)">
+    <rect width="260" height="170" rx="10" fill="url(#cardBg)" stroke="#272C36" stroke-width="1"/>
+    <rect x="0" y="0" width="260" height="3" rx="1.5" fill="#4D7CFE"/>
+    <text x="20" y="32" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#4D7CFE">02 / DESIGN &amp; MOTION</text>
+    <text x="20" y="58" font-family="'Space Grotesk', system-ui, sans-serif" font-size="16" font-weight="700" fill="#F5F4F0">Tailwind &amp; Motion</text>
+    <text x="20" y="82" font-family="'Inter', sans-serif" font-size="12" fill="#9BA3B3">Electric-blue design tokens, restrained glass &amp; reduced-motion safe.</text>
+    <text x="20" y="145" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6B95FF">🎨 Tailwind 3.4 · Framer Motion</text>
+  </g>
+
+  <!-- Col 3: Real Projects Showcase -->
+  <g transform="translate(600, 25)">
+    <rect width="260" height="170" rx="10" fill="url(#cardBg)" stroke="#272C36" stroke-width="1"/>
+    <rect x="0" y="0" width="260" height="3" rx="1.5" fill="#4D7CFE"/>
+    <text x="20" y="32" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#4D7CFE">03 / SHOWCASE ENGINE</text>
+    <text x="20" y="58" font-family="'Space Grotesk', system-ui, sans-serif" font-size="16" font-weight="700" fill="#F5F4F0">4 Real Repositories</text>
+    <text x="20" y="82" font-family="'Inter', sans-serif" font-size="12" fill="#9BA3B3">Verified public GitHub sources with zero fabricated metrics or claims.</text>
+    <text x="20" y="145" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6B95FF">📦 GitHub REST API · Real Code</text>
+  </g>
+
+  <!-- Col 4: Quality & Standards -->
+  <g transform="translate(885, 25)">
+    <rect width="285" height="170" rx="10" fill="url(#cardBg)" stroke="#272C36" stroke-width="1"/>
+    <rect x="0" y="0" width="285" height="3" rx="1.5" fill="#4D7CFE"/>
+    <text x="20" y="32" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#4D7CFE">04 / BENCHMARKS</text>
+    <text x="20" y="58" font-family="'Space Grotesk', system-ui, sans-serif" font-size="16" font-weight="700" fill="#F5F4F0">Proof, Not Promises</text>
+    <text x="20" y="82" font-family="'Inter', sans-serif" font-size="12" fill="#9BA3B3">Strict ESLint, zero TS errors, keyboard trap &amp; high contrast WCAG.</text>
+    <text x="20" y="145" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6B95FF">🛡️ 100% Typed · Strict Linter</text>
+  </g>
+</svg>

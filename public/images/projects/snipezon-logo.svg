@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <defs>
+    <linearGradient id="snzGradFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9b6cff" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="snzGlowFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="glowFull" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Icon Badge -->
+  <g transform="translate(4, 8)">
+    <rect x="4" y="4" width="56" height="56" rx="16" fill="#0b1426" stroke="url(#snzGradFull)" stroke-width="2" />
+    <rect x="8" y="8" width="48" height="48" rx="12" fill="url(#snzGlowFull)" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" />
+    <path d="M 42 24 C 42 19 36 18 30 18 C 24 18 20 21 20 25 C 20 30 25 31 32 33 C 40 34 45 36 45 42 C 45 48 38 50 30 50 C 22 50 17 46 17 40" stroke="url(#snzGradFull)" stroke-width="5" stroke-linecap="round" fill="none" filter="url(#glowFull)" />
+    <circle cx="42" cy="20" r="2" fill="#22d3ee" />
+    <circle cx="17" cy="44" r="2" fill="#9b6cff" />
+  </g>
+  <!-- Brand Text -->
+  <text x="78" y="48" font-family="'Sora', 'Manrope', system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="url(#textGrad)" letter-spacing="-0.5">Snipezon</text>
+  <circle cx="218" cy="30" r="3" fill="#22d3ee" />
+</svg>
